@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 640" role="img" aria-label="仿生水下软体机器人示意图">
+  <defs>
+    <linearGradient id="water" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d9f2ef"/>
+      <stop offset="0.42" stop-color="#5bb8bd"/>
+      <stop offset="1" stop-color="#102d34"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" x2="1">
+      <stop offset="0" stop-color="#f6fbfa"/>
+      <stop offset="0.52" stop-color="#7fd3cf"/>
+      <stop offset="1" stop-color="#0f8b8d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#b6fff7" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#b6fff7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#062429" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="640" fill="url(#water)"/>
+  <path d="M0 105 C210 44 383 88 545 70 C721 52 836 -23 1046 31 C1198 70 1293 60 1400 24 L1400 0 L0 0 Z" fill="#ffffff" opacity="0.22"/>
+  <path d="M0 546 C186 480 352 572 536 520 C774 453 1004 513 1400 438 L1400 640 L0 640 Z" fill="#071f25" opacity="0.22"/>
+  <g opacity="0.42" stroke="#e7ffff" stroke-width="2" fill="none">
+    <path d="M75 142 C250 104 410 165 586 127 C767 88 923 102 1104 78"/>
+    <path d="M18 242 C230 202 402 270 610 223 C809 178 1044 206 1318 150"/>
+    <path d="M121 410 C324 358 501 430 742 382 C933 344 1096 360 1280 326"/>
+  </g>
+  <g opacity="0.18" fill="#ffffff">
+    <circle cx="222" cy="180" r="5"/>
+    <circle cx="323" cy="265" r="3"/>
+    <circle cx="1110" cy="188" r="4"/>
+    <circle cx="1195" cy="306" r="6"/>
+    <circle cx="940" cy="120" r="3"/>
+    <circle cx="682" cy="482" r="5"/>
+    <circle cx="515" cy="185" r="3"/>
+  </g>
+  <ellipse cx="648" cy="334" rx="390" ry="178" fill="url(#glow)"/>
+  <g filter="url(#softShadow)">
+    <path d="M277 333 C396 254 529 224 669 232 C813 241 948 295 1078 379 C905 397 759 378 624 327 C505 377 390 390 277 333 Z" fill="url(#body)" stroke="#eaffff" stroke-width="5"/>
+    <path d="M618 326 C726 256 848 258 990 332 C862 327 750 341 641 389 C628 365 621 346 618 326 Z" fill="#f7fffd" opacity="0.6"/>
+    <path d="M370 325 C478 284 570 282 666 316 C560 365 468 369 370 325 Z" fill="#0b6264" opacity="0.55"/>
+    <path d="M704 230 C774 198 851 182 948 191 C881 239 805 255 714 253 Z" fill="#f3fbfa" opacity="0.72"/>
+    <path d="M356 328 C298 284 241 277 176 304 C226 326 270 350 301 391 C318 367 337 346 356 328 Z" fill="#d7f4ee" stroke="#eaffff" stroke-width="4"/>
+    <path d="M1080 379 C1140 374 1196 397 1245 452 C1167 448 1105 430 1052 392 Z" fill="#8bd8d5" stroke="#eaffff" stroke-width="4"/>
+    <circle cx="487" cy="312" r="20" fill="#092b31"/>
+    <circle cx="492" cy="307" r="8" fill="#a8fff5"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M425 428 C507 493 603 516 716 491" stroke="#a8fff5" stroke-width="6" opacity="0.82"/>
+    <path d="M756 451 C836 489 926 495 1014 466" stroke="#ffd47b" stroke-width="5" opacity="0.8"/>
+    <path d="M272 415 C224 458 180 471 130 454" stroke="#ffaaa3" stroke-width="5" opacity="0.82"/>
+  </g>
+  <g font-family="Inter, Microsoft YaHei, sans-serif" font-weight="800">
+    <rect x="76" y="72" width="260" height="74" rx="8" fill="#ffffff" opacity="0.82"/>
+    <text x="104" y="113" fill="#0b6264" font-size="26">高机动软体机器人</text>
+    <text x="104" y="136" fill="#60706a" font-size="15">Transient driving and agile motion</text>
+    <rect x="1005" y="76" width="285" height="88" rx="8" fill="#102d34" opacity="0.74"/>
+    <text x="1035" y="118" fill="#a8fff5" font-size="24">水下智能监测</text>
+    <text x="1035" y="145" fill="#dff8f5" font-size="15">Perception, decision and control</text>
+  </g>
+</svg>
